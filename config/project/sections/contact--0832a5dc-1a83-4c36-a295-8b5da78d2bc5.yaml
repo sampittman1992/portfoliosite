@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: contact
+name: Contact
+propagationMethod: all
+siteSettings:
+  a948a76d-113a-4632-b864-762ff7d15f6d: # Sam Pittman
+    enabledByDefault: true
+    hasUrls: true
+    template: contact
+    uriFormat: contact
+type: single

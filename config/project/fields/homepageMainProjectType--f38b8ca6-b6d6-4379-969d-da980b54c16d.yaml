@@ -1,0 +1,19 @@
+columnSuffix: skmkjcsm
+contentColumnType: text
+fieldGroup: 16a17e30-30e0-4c2d-b6ee-f8fc93258003 # Home
+handle: homepageMainProjectType
+instructions: ''
+name: 'Homepage Main Project Type'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

@@ -1,0 +1,73 @@
+{% extends "_main" %}
+
+  {% block content %}
+
+    <div id="header">
+      <img src="../Logo-01.svg" class="logo">
+    </div>
+
+    <div class="homepage-container">
+
+      <div class="homepage-project-main">
+      {% set image = entry.heroImage.one() %}
+        <img src="{{ image.getUrl }}">
+
+      <div class="homepage-project-main-caption">
+        {% set rel = entry.homepageMainProjectName.one() %}
+          {% if rel %}
+            <h2><a href="{{ rel.url }}">{{ rel.title }}</a></h2>
+          {% endif %}
+      </div>
+
+      <div class="homepage-project-main-caption-type">
+        <h6>{{ entry.homepageMainProjectType }}<h6>
+      </div>
+
+      </div>
+
+
+<div class="homepage-project-grid">
+        {% for block in entry.homepageProject %}
+
+          <div class="homepage-section">
+            {% switch block.type %}
+              {% case 'projectBlock' %}
+
+                {# Homepage Project Image #}
+                    {% set image = block.projectImage.one() %}
+                      <div class="homepage-image">
+                        <img src="{{ image.url() }}">
+                      </div>
+                {# END Homepage Project Image #}
+
+                {# Homepage Project Image Mobile #}
+                  {% set imagemobile = block.projectImageMobile.one() %}
+                    <div class="homepage-image-mobile">
+                      <img src="{{ imagemobile.url() }}">
+                    </div>
+                {# END Homepage Project Image Mobile #}
+
+                {# Project Name #}
+                  {% set entry = block.projectName.one() %}
+                    <div class="homepage-image-caption">
+                      {% if entry %}
+                          <h2>{{ entry.title }}</h2>
+                      {% endif %}
+                    </div>
+                {# END Project Name #}
+
+                {# Project Type #}
+                  {% set entry = block.projectType %}
+                    <div class="homepage-image-caption-type">
+                      {% if entry %}
+                          <h6>{{ block.projectType }}</h6>
+                      {% endif %}
+                    </div>
+                {# END Project Type #}
+                
+              {% endswitch %}
+              </div>
+        {% endfor %}
+      </div>
+
+  {% endblock %}      

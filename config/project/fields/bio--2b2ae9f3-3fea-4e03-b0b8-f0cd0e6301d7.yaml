@@ -1,0 +1,19 @@
+columnSuffix: ivkeskcj
+contentColumnType: text
+fieldGroup: e121533b-ecc3-46e2-9ee0-868e6cec6f6f # About
+handle: bio
+instructions: ''
+name: Bio
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

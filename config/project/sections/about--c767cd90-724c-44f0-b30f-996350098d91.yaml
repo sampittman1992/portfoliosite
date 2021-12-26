@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: about
+name: About
+propagationMethod: all
+siteSettings:
+  a948a76d-113a-4632-b864-762ff7d15f6d: # Sam Pittman
+    enabledByDefault: true
+    hasUrls: true
+    template: about
+    uriFormat: about
+type: single

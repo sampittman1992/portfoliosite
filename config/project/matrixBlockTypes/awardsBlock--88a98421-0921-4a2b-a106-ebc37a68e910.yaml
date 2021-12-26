@@ -1,0 +1,157 @@
+field: ce22344e-204a-45c3-9415-f2e7717f5744 # Awards List
+fieldLayouts:
+  cfd6bd7c-6e23-483e-b17b-683a45a7cf70:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 5dd21671-2fb4-4698-b61b-b227c2ef93fc # Awards Organisation
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0f3abd88-2a6d-4aea-bc4b-80cc53a7709e # Awards Project
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b920d452-5bd9-40aa-92fa-84e69daef9c0 # Awards Category
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 3c6e1b63-e3af-4833-b1aa-cb7401b0e9a3 # Awards Level
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: f1c823d6-fe2e-4e90-87a5-8adeaf85c9d3 # Awards Year
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  0f3abd88-2a6d-4aea-bc4b-80cc53a7709e: # Awards Project
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: awardsProject
+    instructions: ''
+    name: 'Awards Project'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  3c6e1b63-e3af-4833-b1aa-cb7401b0e9a3: # Awards Level
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: awardsLevel
+    instructions: ''
+    name: 'Awards Level'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  5dd21671-2fb4-4698-b61b-b227c2ef93fc: # Awards Organisation
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: awardsOrganisation
+    instructions: ''
+    name: 'Awards Organisation'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b920d452-5bd9-40aa-92fa-84e69daef9c0: # Awards Category
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: awardsCategory
+    instructions: ''
+    name: 'Awards Category'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  f1c823d6-fe2e-4e90-87a5-8adeaf85c9d3: # Awards Year
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: awardsYear
+    instructions: ''
+    name: 'Awards Year'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: awardsBlock
+name: 'Awards Block'
+sortOrder: 1

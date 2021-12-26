@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: 'Sam Pittman'
+primary: true
+siteGroup: 0ea2600b-91f3-4320-8cf6-2f3139b48551 # Sam Pittman
+sortOrder: 1

@@ -1,0 +1,19 @@
+columnSuffix: avpmmsqx
+contentColumnType: text
+fieldGroup: 1e50705b-7087-42d9-954f-f8d29a2b4c33 # Contact
+handle: contact
+instructions: ''
+name: Contact
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

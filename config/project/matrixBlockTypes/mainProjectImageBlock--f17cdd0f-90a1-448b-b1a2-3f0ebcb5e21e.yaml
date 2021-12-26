@@ -1,0 +1,156 @@
+field: 57c3927b-5dc1-4127-bfd1-6430d4678574 # Homepage Main Project Name
+fieldLayouts:
+  c384c6f1-0599-4910-a5df-0bb56278442f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: ead0d81c-aac3-4a3a-a1bd-191e0e1f2565 # Main Project Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 57e800b0-660f-41c7-a8f1-a9aa03d7abfc # Main Project Image Mobile
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6d329784-1794-4cab-bd61-1c90ed8f4168 # Project Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: cac9403b-b43b-45df-891f-221fbbd360d4 # Project Type
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  6d329784-1794-4cab-bd61-1c90ed8f4168: # Project Name
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: projectName
+    instructions: ''
+    name: 'Project Name'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: ''
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  57e800b0-660f-41c7-a8f1-a9aa03d7abfc: # Main Project Image Mobile
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: mainProjectImageMobile
+    instructions: ''
+    name: 'Main Project Image Mobile'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:fe0527a7-52ff-443b-be56-4439575db75f' # Project
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:fe0527a7-52ff-443b-be56-4439575db75f' # Project
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  cac9403b-b43b-45df-891f-221fbbd360d4: # Project Type
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: projectType
+    instructions: ''
+    name: 'Project Type'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  ead0d81c-aac3-4a3a-a1bd-191e0e1f2565: # Main Project Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: mainProjectImage
+    instructions: ''
+    name: 'Main Project Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:fe0527a7-52ff-443b-be56-4439575db75f' # Project
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:fe0527a7-52ff-443b-be56-4439575db75f' # Project
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: mainProjectImageBlock
+name: 'Main Project Image Block'
+sortOrder: 1

@@ -1,0 +1,57 @@
+dateModified: 1640260116
+email:
+  fromEmail: sam@sampittman.co.uk
+  fromName: 'Sam Pittman'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    0aa024b4-22b9-49a6-8b66-c73cf2996494: Home # Home
+    0ea2600b-91f3-4320-8cf6-2f3139b48551: 'Sam Pittman' # Sam Pittman
+    0f3abd88-2a6d-4aea-bc4b-80cc53a7709e: 'Awards Project' # Awards Project
+    1cf2fcf9-b20b-492c-b904-ffc6156f956a: 'Project Block' # Project Block
+    1e50705b-7087-42d9-954f-f8d29a2b4c33: Contact # Contact
+    2b2ae9f3-3fea-4e03-b0b8-f0cd0e6301d7: Bio # Bio
+    3c6e1b63-e3af-4833-b1aa-cb7401b0e9a3: 'Awards Level' # Awards Level
+    5dd21671-2fb4-4698-b61b-b227c2ef93fc: 'Awards Organisation' # Awards Organisation
+    5fb3e8dd-797e-40c6-924d-4f129ce91c8b: Contact # Contact
+    6d329784-1794-4cab-bd61-1c90ed8f4168: 'Project Name' # Project Name
+    08ef0892-3083-45d3-adcb-7a3738d45681: Default # Default
+    16a17e30-30e0-4c2d-b6ee-f8fc93258003: Home # Home
+    31d2fd36-fc55-4818-9a78-6d620bf82d51: 'Project Image' # Project Image
+    57c3927b-5dc1-4127-bfd1-6430d4678574: 'Homepage Main Project Name' # Homepage Main Project Name
+    57e800b0-660f-41c7-a8f1-a9aa03d7abfc: 'Main Project Image Mobile' # Main Project Image Mobile
+    88a98421-0921-4a2b-a106-ebc37a68e910: 'Awards Block' # Awards Block
+    239bbaa5-f307-4c21-8eb9-ba661aae8f5e: 'Project Type' # Project Type
+    0832a5dc-1a83-4c36-a295-8b5da78d2bc5: Contact # Contact
+    995b66b9-435e-4a56-9c97-c2ff1284cf6f: 'Project Name' # Project Name
+    8423e75f-3122-4611-afee-1964fdbfecfb: Project # Project
+    a948a76d-113a-4632-b864-762ff7d15f6d: 'Sam Pittman' # Sam Pittman
+    a61356c6-3a08-464d-9afa-eda0180005b5: Home # Home
+    b920d452-5bd9-40aa-92fa-84e69daef9c0: 'Awards Category' # Awards Category
+    b2906f71-9a84-4426-ad54-c151a5748416: 'Project Image Mobile' # Project Image Mobile
+    c767cd90-724c-44f0-b30f-996350098d91: About # About
+    cac9403b-b43b-45df-891f-221fbbd360d4: 'Project Type' # Project Type
+    ce22344e-204a-45c3-9415-f2e7717f5744: 'Awards List' # Awards List
+    d9effeaa-86c2-4b91-a873-bb73981d3993: Contact # Contact
+    dce78be5-32cc-43d3-9ae2-9ce163274479: Common # Common
+    e4fa0978-59c7-448a-9082-e80316245ee5: 'Homepage Project' # Homepage Project
+    e6bfa08d-f632-44cc-b594-ff543e957254: 'Hero Image' # Hero Image
+    e121533b-ecc3-46e2-9ee0-868e6cec6f6f: About # About
+    ead0d81c-aac3-4a3a-a1bd-191e0e1f2565: 'Main Project Image' # Main Project Image
+    f1c823d6-fe2e-4e90-87a5-8adeaf85c9d3: 'Awards Year' # Awards Year
+    f17cdd0f-90a1-448b-b1a2-3f0ebcb5e21e: 'Main Project Image Block' # Main Project Image Block
+    f38b8ca6-b6d6-4379-969d-da980b54c16d: 'Homepage Main Project Type' # Homepage Main Project Type
+    fa08560a-67d6-4fc9-a69f-ea4c6667b68a: About # About
+    fe0527a7-52ff-443b-be56-4439575db75f: Project # Project
+system:
+  edition: solo
+  live: true
+  name: 'Sam Pittman'
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

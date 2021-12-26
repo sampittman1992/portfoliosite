@@ -1,0 +1,94 @@
+{% extends "_main" %}
+
+  {% block content %}
+
+    <div id="header">
+      <img src="../Logo-01.svg" class="logo-single">
+    </div>
+
+    <div class="bio">
+        <h8>{{ entry.bio }}<h8>
+    </div>
+
+    <div class="awards">
+        <div class="awards-title"><h8>Awards<h8></div>
+            
+            <div class="awards-list-header">
+                    
+                <div class="awards-list-row">
+                <h2>Scheme<h2>
+                </div>
+
+                <div class="awards-list-row">
+                <h2>Project<h2>
+                </div>
+
+                <div class="awards-list-row">
+                <h2>Category<h2>
+                </div>
+
+                <div class="awards-list-row">
+                <h2>Level<h2>
+                </div>
+
+                <div class="awards-list-row">
+                <h2>Year<h2>
+                </div>
+        
+            </div>
+
+
+            {% for block in entry.awardsList %}
+
+                <div class="awards-list">
+                    {% switch block.type %}
+                    {% case 'awardsBlock' %}
+
+                        {# ONE #}
+                            {% set entry = block.awardsOrganisation %}
+                                <div class="awards-list-row">
+                                {% if entry %}
+                                    <h6>{{ block.awardsOrganisation }}</h6>
+                                {% endif %}
+                                </div>
+                        {# END ONE #}
+                        {# TWO #}
+                            {% set entry = block.awardsProject %}
+                                <div class="awards-list-row">
+                                {% if entry %}
+                                    <h6>{{ block.awardsProject }}</h6>
+                                {% endif %}
+                                </div>
+                        {# END TWO #}
+                        {# THREE #}
+                            {% set entry = block.awardsCategory %}
+                                <div class="awards-list-row">
+                                {% if entry %}
+                                    <h6>{{ block.awardsCategory }}</h6>
+                                {% endif %}
+                                </div>
+                        {# END THREE #}
+                        {# THREE #}
+                            {% set entry = block.awardsLevel %}
+                                <div class="awards-list-row">
+                                {% if entry %}
+                                    <h6>{{ block.awardsLevel }}</h6>
+                                {% endif %}
+                                </div>
+                        {# END THREE #}
+                        {# FOUR #}
+                            {% set entry = block.awardsYear %}
+                                <div class="awards-list-row">
+                                {% if entry %}
+                                    <h6>{{ block.awardsYear }}</h6>
+                                {% endif %}
+                                </div>
+                        {# END FOUR #}
+                        
+                    {% endswitch %}
+                    </div>
+                {% endfor %}
+
+    </div>
+
+  {% endblock %}

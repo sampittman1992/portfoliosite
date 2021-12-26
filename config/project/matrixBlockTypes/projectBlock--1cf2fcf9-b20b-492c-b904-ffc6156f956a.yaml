@@ -1,0 +1,156 @@
+field: e4fa0978-59c7-448a-9082-e80316245ee5 # Homepage Project
+fieldLayouts:
+  64fac5d3-ba55-4fca-8e66-5c1ac40480ad:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 31d2fd36-fc55-4818-9a78-6d620bf82d51 # Project Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: b2906f71-9a84-4426-ad54-c151a5748416 # Project Image Mobile
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 995b66b9-435e-4a56-9c97-c2ff1284cf6f # Project Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 239bbaa5-f307-4c21-8eb9-ba661aae8f5e # Project Type
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  31d2fd36-fc55-4818-9a78-6d620bf82d51: # Project Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: projectImage
+    instructions: ''
+    name: 'Project Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:fe0527a7-52ff-443b-be56-4439575db75f' # Project
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:fe0527a7-52ff-443b-be56-4439575db75f' # Project
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  239bbaa5-f307-4c21-8eb9-ba661aae8f5e: # Project Type
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: projectType
+    instructions: ''
+    name: 'Project Type'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  995b66b9-435e-4a56-9c97-c2ff1284cf6f: # Project Name
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: projectName
+    instructions: ''
+    name: 'Project Name'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      limit: ''
+      localizeRelations: false
+      selectionLabel: ''
+      showSiteMenu: true
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  b2906f71-9a84-4426-ad54-c151a5748416: # Project Image Mobile
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: projectImageMobile
+    instructions: ''
+    name: 'Project Image Mobile'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:fe0527a7-52ff-443b-be56-4439575db75f' # Project
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:fe0527a7-52ff-443b-be56-4439575db75f' # Project
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: large
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: projectBlock
+name: 'Project Block'
+sortOrder: 1
