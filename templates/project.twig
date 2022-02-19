@@ -2,12 +2,144 @@
 
   {% block content %}
 
-    <div class="project-name">
-    {{ entry.title }}
+    <div id="project-header">
+      <img src="../Logo-01.svg" class="logo-project">
     </div>
 
     <div class="project-container">
-    content here
+
+        <div class="project-module">
+            
+                {% for block in entry.projectModules.all() %}
+                    {% switch block.type %}
+
+                    {# Single Image #}
+                            {% case 'singleImage' %}
+                            <div class="project-image">
+                                {% for asset in block.singleImage.all() %}
+                                    <img src="{{ asset.url() }}" />
+                                {% endfor %}
+                            </div>   
+                            <div class="project-image-mobile">
+                                {% for asset in block.singleImageMobile.all() %}
+                                    <img src="{{ asset.url() }}" />
+                                {% endfor %}
+                            </div>
+                        
+                    {# END Single Image #}
+
+                    {# Single Image Portrait #}
+                        {% case 'singleImagePortrait' %}
+                            <div class="project-image-portrait">
+                                {% for asset in block.singleImagePortrait.all() %}
+                                    <img src="{{ asset.url() }}" />
+                                {% endfor %}
+                            </div>
+                            <div class="project-image-portrait-mobile">
+                                {% for asset in block.singleImagePortraitMobile.all() %}
+                                    <img src="{{ asset.url() }}" />
+                                {% endfor %}
+                            </div>
+                    {# END Single Image Portrait #}
+
+                    {# Single Image Landscape Inset #}
+                        {% case 'singleImageLandscapeInset' %}
+                            <div class="project-image-landscape-inset">
+                                {% for asset in block.singleImageLandscapeInset.all() %}
+                                    <img src="{{ asset.url() }}" />
+                                {% endfor %}
+                            </div>
+                            <div class="project-image-landscape-inset-mobile">
+                                {% for asset in block.singleImageLandscapeInsetMobile.all() %}
+                                    <img src="{{ asset.url() }}" />
+                                {% endfor %}
+                            </div>
+                    {# END Single Landscape Inset #}
+
+                    {# Project info #}
+                        {% case 'projectInfo' %}
+                            <div class="project-info">
+                                {% if block.projectInfoSectionOne %}
+                                    <div class="info-col">
+                                        <h3>{{ block.projectInfoSectionOne }}</h3>
+                                    </div>
+                                {% endif %}
+                                {% if block.projectInfoSectionTwo %}
+                                    <div class="info-col">
+                                        <h4>{{ block.projectInfoSectionTwo }}</h4>
+                                    </div>
+                                {% endif %}
+                            </div>
+                            
+                    {# END Project info #}
+
+                    {# Multiple Image Grid #}
+                        {% case 'multipleImageGrid' %}
+                            <div class="multiple-image-grid">
+                                {% for asset in block.multipleImage.all() %}
+                                    <img src="{{ asset.url() }}" />
+                                {% endfor %}    
+                            </div>     
+                            <div class="multiple-image-grid-mobile"> 
+                                {% for asset in block.multipleImageMobile.all() %}
+                                    <img src="{{ asset.url() }}" />
+                                {% endfor %}
+                            </div>           
+                    {# END Multiple Image Grid #}
+
+                    {# iPhone Images #}
+                        {% case 'iphoneImagesGrid' %}
+                            <div class="social-image-grid">
+                                {% for asset in block.iphoneImages.all() %}
+                                    <img src="{{ asset.url() }}" />
+                                {% endfor %}
+                            </div>
+                            <div class="social-image-grid-mobile">
+                                {% for asset in block.iphoneImagesMobile.all() %}
+                                    <img src="{{ asset.url() }}" />
+                                {% endfor %}
+                                <img src="" />
+                            </div>
+                    {# END iPhone Images #}
+                    
+                    {# Video #}
+                        {% case 'autoplayingVideo' %}
+                            <video class="fullscreen-autoplay-video" playsinline autoplay loop muted>
+                                {% for asset in block.videoWebm.all() %}
+                                    <source src="{{ asset.url() }}" type="video/webm" />
+                                {% endfor %}
+                                {% for asset in block.videoMp4.all() %}
+                                    <source src="{{ asset.url() }}" type="video/mp4" />
+                                {% endfor %}
+                            </video>
+                    {# END Video #}
+
+                    {# Video #}
+                        {% case 'playerVideo' %}
+                            <div class="video-module">
+                                <video id="video" playsinline controls>
+                                    {% for asset in block.videoWebm.all() %}
+                                        <source src="{{ asset.url() }}" type="video/webm" />
+                                    {% endfor %}
+                                    {% for asset in block.videoMp4.all() %}
+                                        <source src="{{ asset.url() }}" type="video/mp4" />
+                                    {% endfor %}
+                                </video>
+                            </div>
+                    {# END Video #}
+                    
+
+
+                    {% endswitch %}
+                {% endfor %}
+            
+        </div>
+
     </div>
 
 {% endblock %}
+
+
+
+
+

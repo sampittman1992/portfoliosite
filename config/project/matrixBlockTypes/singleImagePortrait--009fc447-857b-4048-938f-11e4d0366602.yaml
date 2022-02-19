@@ -1,0 +1,118 @@
+field: 670c03fe-0f4d-476f-b8df-f547c2b76da3 # Project Modules
+fieldLayouts:
+  e353c3ac-4dc1-4c2f-a72d-b73836f21042:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: f33eb924-bcfe-4787-a561-16563fb3ce7a # Single Image Portrait
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6c193a40-338d-4152-8f5a-5513389045d3 # Single Image Portrait Mobile
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ec73bb1a-becb-4f63-b57d-0bb9785ab883 # Background Colour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  6c193a40-338d-4152-8f5a-5513389045d3: # Single Image Portrait Mobile
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: singleImagePortraitMobile
+    instructions: ''
+    name: 'Single Image Portrait Mobile'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:fe0527a7-52ff-443b-be56-4439575db75f' # Project
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:fe0527a7-52ff-443b-be56-4439575db75f' # Project
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  ec73bb1a-becb-4f63-b57d-0bb9785ab883: # Background Colour
+    columnSuffix: null
+    contentColumnType: string(7)
+    fieldGroup: null
+    handle: backgroundColour
+    instructions: ''
+    name: 'Background Colour'
+    searchable: false
+    settings:
+      defaultColor: '#ee22ee'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Color
+  f33eb924-bcfe-4787-a561-16563fb3ce7a: # Single Image Portrait
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: singleImagePortrait
+    instructions: ''
+    name: 'Single Image Portrait'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:fe0527a7-52ff-443b-be56-4439575db75f' # Project
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: ''
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:fe0527a7-52ff-443b-be56-4439575db75f' # Project
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: singleImagePortrait
+name: 'Single Image Portrait'
+sortOrder: 2

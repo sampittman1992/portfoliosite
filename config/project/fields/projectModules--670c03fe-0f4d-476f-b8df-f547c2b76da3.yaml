@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: e1677c95-6b62-406e-b1cd-9366789a84a1 # Project
+handle: projectModules
+instructions: ''
+name: 'Project Modules'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_projectmodules}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

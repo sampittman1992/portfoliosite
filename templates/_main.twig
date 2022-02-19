@@ -1,8 +1,20 @@
 <head>
 {% css "/style.css" %} 
 <link rel="stylesheet" href="https://use.typekit.net/bdp5rbd.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
 </head>
 {% js "/script.js" %}
 {% embed "nav.twig" %} {% endembed %}
 {% block content %} {% endblock %} 
 {% embed "footer.twig" %} {% endembed %} 
+
+<!-- Video -->
+<script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
+
+<script>
+    const player = new Plyr('#video', {
+        controls: ['play-large', 'play', 'progress', 'current-time', 'mute', 'volume'],
+    });
+</script>
+
